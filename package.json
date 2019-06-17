@@ -1,0 +1,64 @@
+{
+  "_from": "@vesta/driver-redis@^1.0.0",
+  "_id": "@vesta/driver-redis@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-gmCBsmJvG37ZZWV30pUbmljL46KXss3mlwgo4tZzKBE4xXQvlY1lMghIl5TvuwfOa+MAEtV96kj37fVXsbx4ww==",
+  "_location": "/@vesta/driver-redis",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@vesta/driver-redis@^1.0.0",
+    "name": "@vesta/driver-redis",
+    "escapedName": "@vesta%2fdriver-redis",
+    "scope": "@vesta",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@vesta/driver-redis/-/driver-redis-1.0.0.tgz",
+  "_shasum": "5efb5d413f9da699ba20064aa2021a6cd283be38",
+  "_spec": "@vesta/driver-redis@^1.0.0",
+  "_where": "/Users/majid/Desktop/projects/auto/autoapp-api",
+  "author": {
+    "name": "hbtb",
+    "email": "bishehsary@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/VestaRayanAfzar/vesta-driver-redis/issues",
+    "email": "bishehsary@gmail.com"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "javadkh2",
+      "email": "khalilian.javad@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@vesta/core": "^1.0.1",
+    "redis": "^2.5.3"
+  },
+  "deprecated": false,
+  "description": "Vesta Platform Redis drievr based on Database Class",
+  "homepage": "https://github.com/VestaRayanAfzar/vesta-driver-redis#readme",
+  "keywords": [
+    "NodeJS",
+    "TypeScript",
+    "Database",
+    "Redis",
+    "Schema"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "@vesta/driver-redis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VestaRayanAfzar/vesta-driver-redis.git"
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.0"
+}
