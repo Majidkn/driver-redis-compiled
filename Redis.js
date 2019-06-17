@@ -10,7 +10,7 @@ class Redis {
         if (this.connection)
             return Promise.resolve(this);
         return new Promise((resolve, reject) => {
-            let client = redis_1.createClient(this.config.port, this.config.host, { auth_pass: this.config.password }));
+            let client = redis_1.createClient(this.config.port, this.config.host, { auth_pass: this.config.password, password: this.config.password }));
             client.on('ready', () => {
                 this.connection = client;
                 resolve(this);
